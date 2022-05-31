@@ -27,8 +27,7 @@ const brands = [
 
 const brandsDocuments = brands.map((brand) => Brand(brand));
 
-mongoose
-  .connect(
+mongoose.connect(
     'mongodb+srv://diegocastillo:xvIYFJFTAvBNrbGv@cluster0.g4eqa.mongodb.net/mongocars?retryWrites=true&w=majority',
     {
       useNewUrlParser: true,
